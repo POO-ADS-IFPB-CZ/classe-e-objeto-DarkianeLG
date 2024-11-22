@@ -1,10 +1,25 @@
 package src;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        Questao13 conta = new Questao13("João", 0,
-                false);
+        // QUESTÃO 4
+
+        System.out.println("<<<<< QUESTÃO 4 >>>>>\n");
+
+        Questao4 lampada = new Questao4("Philips", "LED", 220, 32, 1111,
+        15);
+
+        System.out.println(lampada.getPotencia());
+        lampada.setPreco(17);
+        System.out.println(lampada.getPreco());
+
+        // QUESTÃO 13
+
+        System.out.println("<<<<< QUESTÃO 13 >>>>>\n");
+
+        Questao13 conta = new Questao13("João",  0, false);
 
         System.out.println("Dados inicias: \n");
         conta.dados();
