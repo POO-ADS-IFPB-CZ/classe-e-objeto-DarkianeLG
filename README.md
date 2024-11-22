@@ -27,4 +27,9 @@ retornar valores. O método deveria ter um tipo de retorno int para funcionar co
 
 E também está sem encapsulamento e sem construtor.
 
+Questão 14: Resposta:
+
+Evitar que atributos sejam acessados ou modificados diretamente, permite definir regras para validação garantindo que os atributos sejam alterados de forma adequada,
+e torna mais fácil encontrar e corrigir erros pois o acesso aos dados é centralizado nos métodos da classe.
+
 
